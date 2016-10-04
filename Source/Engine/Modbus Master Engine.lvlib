@@ -6,18 +6,22 @@
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
 			<Item Name="Initialize Data Buffer.vi" Type="VI" URL="../SubVIs/Initialize Data Buffer.vi"/>
-			<Item Name="Initialize Modbus Connection.vi" Type="VI" URL="../SubVIs/Initialize Modbus Connection.vi"/>
+			<Item Name="Initialize Modbus Master Connection.vi" Type="VI" URL="../SubVIs/Initialize Modbus Master Connection.vi"/>
+			<Item Name="Initialize Modbus Slave Connection.vi" Type="VI" URL="../SubVIs/Initialize Modbus Slave Connection.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="From Modbus To Veristand.vi" Type="VI" URL="../SubVIs/From Modbus To Veristand.vi"/>
-			<Item Name="From Veristand To Modbus.vi" Type="VI" URL="../SubVIs/From Veristand To Modbus.vi"/>
+			<Item Name="From Veristand Master To Modbus.vi" Type="VI" URL="../SubVIs/From Veristand Master To Modbus.vi"/>
+			<Item Name="From Veristand Slave To Modbus.vi" Type="VI" URL="../SubVIs/From Veristand Slave To Modbus.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Create Input Groups.vi" Type="VI" URL="../SubVIs/Create Input Groups.vi"/>
 			<Item Name="Create Output Groups.vi" Type="VI" URL="../SubVIs/Create Output Groups.vi"/>
 			<Item Name="write coils.vi" Type="VI" URL="../SubVIs/write coils.vi"/>
+			<Item Name="write discrete inputs.vi" Type="VI" URL="../SubVIs/write discrete inputs.vi"/>
 			<Item Name="Write Holding Registers.vi" Type="VI" URL="../SubVIs/Write Holding Registers.vi"/>
+			<Item Name="write input registers.vi" Type="VI" URL="../SubVIs/write input registers.vi"/>
 		</Item>
 	</Item>
 	<Item Name="SubVIs" Type="Folder"/>
