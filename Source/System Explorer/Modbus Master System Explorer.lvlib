@@ -193,6 +193,8 @@
 			<Item Name="Form Groups.vi" Type="VI" URL="../SubVIs/Form Groups.vi"/>
 			<Item Name="Radix.ctl" Type="VI" URL="../SubVIs/Radix.ctl"/>
 			<Item Name="set radix.vi" Type="VI" URL="../SubVIs/set radix.vi"/>
+			<Item Name="Group Channels By VS and MB Type.vi" Type="VI" URL="../Group Channels By VS and MB Type.vi"/>
+			<Item Name="Pop Up Channel Data.vi" Type="VI" URL="../Pop Up Channel Data.vi"/>
 		</Item>
 		<Item Name="ActionVIOnCompile" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
@@ -211,6 +213,4 @@
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../SubVIs/ActionVIOnCompile.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Group Channels By VS and MB Type.vi" Type="VI" URL="../Group Channels By VS and MB Type.vi"/>
-	<Item Name="Pop Up Channel Data.vi" Type="VI" URL="../Pop Up Channel Data.vi"/>
 </Library>
