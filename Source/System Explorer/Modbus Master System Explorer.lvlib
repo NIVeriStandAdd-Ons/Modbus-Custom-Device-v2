@@ -50,7 +50,6 @@
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add DO Coil.vi" Type="VI" URL="../SubVIs/Add DO Coil.vi"/>
 				<Item Name="Add DO Coil - Right Click.vi" Type="VI" URL="../SubVIs/Add DO Coil - Right Click.vi"/>
-				<Item Name="Bulk Add DO Coil Dialog.vi" Type="VI" URL="../SubVIs/Bulk Add DO Coil Dialog.vi"/>
 				<Item Name="Bulk Add DO Coil - Right Click.vi" Type="VI" URL="../Bulk Add DO Coil - Right Click.vi"/>
 			</Item>
 			<Item Name="GUIDs" Type="Folder">
@@ -71,7 +70,6 @@
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add DI Coil.vi" Type="VI" URL="../SubVIs/Add DI Coil.vi"/>
 				<Item Name="Add DI Coil - Right Click.vi" Type="VI" URL="../SubVIs/Add DI Coil - Right Click.vi"/>
-				<Item Name="Bulk Add DI Coil Dialog.vi" Type="VI" URL="../SubVIs/Bulk Add DI Coil Dialog.vi"/>
 				<Item Name="Bulk Add DI Coil - Right Click.vi" Type="VI" URL="../SubVIs/Bulk Add DI Coil - Right Click.vi"/>
 			</Item>
 			<Item Name="GUIDs" Type="Folder">
@@ -101,7 +99,6 @@
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add AO Register.vi" Type="VI" URL="../SubVIs/Add AO Register.vi"/>
 				<Item Name="Add AO Register - Right Click.vi" Type="VI" URL="../SubVIs/Add AO Register - Right Click.vi"/>
-				<Item Name="Bulk Add AO Register Dialog.vi" Type="VI" URL="../SubVIs/Bulk Add AO Register Dialog.vi"/>
 				<Item Name="Bulk Add AO Register - Right Click.vi" Type="VI" URL="../Bulk Add AO Register - Right Click.vi"/>
 			</Item>
 			<Item Name="GUIDs" Type="Folder">
@@ -135,7 +132,6 @@
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add AI Register.vi" Type="VI" URL="../SubVIs/Add AI Register.vi"/>
 				<Item Name="Add AI Register - Right Click.vi" Type="VI" URL="../SubVIs/Add AI Register - Right Click.vi"/>
-				<Item Name="Bulk Add AI Register Dialog.vi" Type="VI" URL="../SubVIs/Bulk Add AI Register Dialog.vi"/>
 				<Item Name="Bulk Add AI Register - Right Click.vi" Type="VI" URL="../Bulk Add AI Register - Right Click.vi"/>
 			</Item>
 			<Item Name="Check for Input Register Mapping Conflicts.vi" Type="VI" URL="../SubVIs/Check for Input Register Mapping Conflicts.vi"/>
@@ -144,6 +140,7 @@
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Channel Get Modbus Type.vi" Type="VI" URL="../SubVIs/Channel Get Modbus Type.vi"/>
 			<Item Name="Channel Set Modbus Type.vi" Type="VI" URL="../SubVIs/Channel Set Modbus Type.vi"/>
+			<Item Name="Bulk Add Dialog.vi" Type="VI" URL="../SubVIs/Bulk Add Dialog.vi"/>
 		</Item>
 		<Item Name="Interface Settings" Type="Folder">
 			<Item Name="Serial Settings" Type="Folder">
