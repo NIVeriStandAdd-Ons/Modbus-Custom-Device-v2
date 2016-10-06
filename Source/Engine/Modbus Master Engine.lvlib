@@ -34,5 +34,6 @@
 	</Item>
 	<Item Name="Modbus Async.vi" Type="VI" URL="../Modbus Async.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
+	<Item Name="Write Data.vi" Type="VI" URL="../SubVIs/Write Data.vi"/>
 	<Item Name="Write Errors.vi" Type="VI" URL="../SubVIs/Write Errors.vi"/>
 </Library>
