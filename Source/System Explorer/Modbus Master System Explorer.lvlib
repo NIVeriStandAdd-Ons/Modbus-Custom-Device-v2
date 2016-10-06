@@ -49,6 +49,7 @@
 			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add DO Coil.vi" Type="VI" URL="../SubVIs/Add DO Coil.vi"/>
+				<Item Name="Bulk Add DO Coil.vi" Type="VI" URL="../Bulk Add DO Coil.vi"/>
 				<Item Name="Add DO Coil - Right Click.vi" Type="VI" URL="../SubVIs/Add DO Coil - Right Click.vi"/>
 				<Item Name="Bulk Add DO Coil - Right Click.vi" Type="VI" URL="../Bulk Add DO Coil - Right Click.vi"/>
 			</Item>
@@ -69,6 +70,7 @@
 			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add DI Coil.vi" Type="VI" URL="../SubVIs/Add DI Coil.vi"/>
+				<Item Name="Bulk Add DI Coil.vi" Type="VI" URL="../SubVIs/Bulk Add DI Coil.vi"/>
 				<Item Name="Add DI Coil - Right Click.vi" Type="VI" URL="../SubVIs/Add DI Coil - Right Click.vi"/>
 				<Item Name="Bulk Add DI Coil - Right Click.vi" Type="VI" URL="../SubVIs/Bulk Add DI Coil - Right Click.vi"/>
 			</Item>
@@ -98,6 +100,7 @@
 			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add AO Register.vi" Type="VI" URL="../SubVIs/Add AO Register.vi"/>
+				<Item Name="Bulk Add AO Register.vi" Type="VI" URL="../Bulk Add AO Register.vi"/>
 				<Item Name="Add AO Register - Right Click.vi" Type="VI" URL="../SubVIs/Add AO Register - Right Click.vi"/>
 				<Item Name="Bulk Add AO Register - Right Click.vi" Type="VI" URL="../Bulk Add AO Register - Right Click.vi"/>
 			</Item>
@@ -192,6 +195,7 @@
 			<Item Name="set radix.vi" Type="VI" URL="../SubVIs/set radix.vi"/>
 			<Item Name="Group Channels By VS and MB Type.vi" Type="VI" URL="../Group Channels By VS and MB Type.vi"/>
 			<Item Name="Pop Up Channel Data.vi" Type="VI" URL="../Pop Up Channel Data.vi"/>
+			<Item Name="Direction.ctl" Type="VI" URL="../SubVIs/Direction.ctl"/>
 		</Item>
 		<Item Name="ActionVIOnCompile" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
