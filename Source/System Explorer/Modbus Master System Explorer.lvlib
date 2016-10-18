@@ -146,6 +146,8 @@
 			<Item Name="Channel Set Modbus Type.vi" Type="VI" URL="../SubVIs/Channel Set Modbus Type.vi"/>
 			<Item Name="Bulk Add Dialog.vi" Type="VI" URL="../SubVIs/Bulk Add Dialog.vi"/>
 			<Item Name="Bulk Add Helper.vi" Type="VI" URL="../SubVIs/Bulk Add Helper.vi"/>
+			<Item Name="Get Radix Selection.vi" Type="VI" URL="../SubVIs/Get Radix Selection.vi"/>
+			<Item Name="Set Radix Selection.vi" Type="VI" URL="../Set Radix Selection.vi"/>
 		</Item>
 		<Item Name="Interface Settings" Type="Folder">
 			<Item Name="Serial Settings" Type="Folder">
