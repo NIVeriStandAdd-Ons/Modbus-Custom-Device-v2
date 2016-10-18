@@ -70,8 +70,8 @@
 			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add DI Coil.vi" Type="VI" URL="../SubVIs/Add DI Coil.vi"/>
-				<Item Name="Bulk Add DI Coil.vi" Type="VI" URL="../SubVIs/Bulk Add DI Coil.vi"/>
 				<Item Name="Add DI Coil - Right Click.vi" Type="VI" URL="../SubVIs/Add DI Coil - Right Click.vi"/>
+				<Item Name="Bulk Add DI Coil.vi" Type="VI" URL="../SubVIs/Bulk Add DI Coil.vi"/>
 				<Item Name="Bulk Add DI Coil - Right Click.vi" Type="VI" URL="../SubVIs/Bulk Add DI Coil - Right Click.vi"/>
 			</Item>
 			<Item Name="GUIDs" Type="Folder">
@@ -100,8 +100,8 @@
 			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add AO Register.vi" Type="VI" URL="../SubVIs/Add AO Register.vi"/>
-				<Item Name="Bulk Add AO Register.vi" Type="VI" URL="../Bulk Add AO Register.vi"/>
 				<Item Name="Add AO Register - Right Click.vi" Type="VI" URL="../SubVIs/Add AO Register - Right Click.vi"/>
+				<Item Name="Bulk Add AO Register.vi" Type="VI" URL="../Bulk Add AO Register.vi"/>
 				<Item Name="Bulk Add AO Register - Right Click.vi" Type="VI" URL="../Bulk Add AO Register - Right Click.vi"/>
 			</Item>
 			<Item Name="GUIDs" Type="Folder">
@@ -136,6 +136,7 @@
 				<Item Name="Add AI Register.vi" Type="VI" URL="../SubVIs/Add AI Register.vi"/>
 				<Item Name="Add AI Register - Right Click.vi" Type="VI" URL="../SubVIs/Add AI Register - Right Click.vi"/>
 				<Item Name="Bulk Add AI Register - Right Click.vi" Type="VI" URL="../Bulk Add AI Register - Right Click.vi"/>
+				<Item Name="Bulk Add AI Register.vi" Type="VI" URL="../Bulk Add AI Register.vi"/>
 			</Item>
 			<Item Name="Check for Input Register Mapping Conflicts.vi" Type="VI" URL="../SubVIs/Check for Input Register Mapping Conflicts.vi"/>
 			<Item Name="Validate Input Register Mapping.vi" Type="VI" URL="../SubVIs/Validate Input Register Mapping.vi"/>
@@ -144,6 +145,7 @@
 			<Item Name="Channel Get Modbus Type.vi" Type="VI" URL="../SubVIs/Channel Get Modbus Type.vi"/>
 			<Item Name="Channel Set Modbus Type.vi" Type="VI" URL="../SubVIs/Channel Set Modbus Type.vi"/>
 			<Item Name="Bulk Add Dialog.vi" Type="VI" URL="../SubVIs/Bulk Add Dialog.vi"/>
+			<Item Name="Bulk Add Helper.vi" Type="VI" URL="../SubVIs/Bulk Add Helper.vi"/>
 		</Item>
 		<Item Name="Interface Settings" Type="Folder">
 			<Item Name="Serial Settings" Type="Folder">
