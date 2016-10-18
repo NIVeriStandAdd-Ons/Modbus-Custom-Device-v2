@@ -218,4 +218,5 @@
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../SubVIs/ActionVIOnCompile.vi"/>
 		</Item>
 	</Item>
+	<Item Name="String is a number.vi" Type="VI" URL="../SubVIs/String is a number.vi"/>
 </Library>
