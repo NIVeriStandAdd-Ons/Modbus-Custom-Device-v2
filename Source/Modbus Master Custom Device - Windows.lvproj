@@ -130,6 +130,7 @@
 			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Conflict Table.ctl" Type="VI" URL="../System Explorer/SubVIs/Conflict Table.ctl"/>
+		<Item Name="Control 1.ctl" Type="VI" URL="../../../../Desktop/Control 1.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -188,10 +189,7 @@
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Holding Register Get Starting Address.vi" Type="VI" URL="../System Explorer/Holding Register Get Starting Address.vi"/>
-			<Item Name="Holding Register Get Data Type.vi" Type="VI" URL="../System Explorer/Holding Register Get Data Type.vi"/>
-			<Item Name="Coil Get Starting Address.vi" Type="VI" URL="../System Explorer/SubVIs/Coil Get Starting Address.vi"/>
-			<Item Name="Discrete Input Get Starting Address.vi" Type="VI" URL="../System Explorer/SubVIs/Discrete Input Get Starting Address.vi"/>
+			<Item Name="Validate Discrete Input Mapping.vi" Type="VI" URL="../System Explorer/SubVIs/Validate Discrete Input Mapping.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">

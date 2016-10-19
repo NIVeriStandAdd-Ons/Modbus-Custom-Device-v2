@@ -51,7 +51,6 @@
 				<Item Name="DO Coils Group UI.vi" Type="VI" URL="../DO Coils Group UI.vi"/>
 			</Item>
 			<Item Name="Check for Coil Mapping Conflicts.vi" Type="VI" URL="../SubVIs/Check for Coil Mapping Conflicts.vi"/>
-			<Item Name="Validate Coil Mapping.vi" Type="VI" URL="../SubVIs/Validate Coil Mapping.vi"/>
 		</Item>
 		<Item Name="Discrete Inputs" Type="Folder">
 			<Item Name="Add" Type="Folder">
@@ -64,7 +63,6 @@
 				<Item Name="DI Coil UI.vi" Type="VI" URL="../DI Coil UI.vi"/>
 				<Item Name="DI Coils Group UI.vi" Type="VI" URL="../DI Coils Group UI.vi"/>
 			</Item>
-			<Item Name="Validate Discrete Input Mapping.vi" Type="VI" URL="../SubVIs/Validate Discrete Input Mapping.vi"/>
 			<Item Name="Check for Discrete Input Mapping Conflicts.vi" Type="VI" URL="../Check for Discrete Input Mapping Conflicts.vi"/>
 		</Item>
 		<Item Name="Holding Registers" Type="Folder">
@@ -79,7 +77,6 @@
 				<Item Name="AO Regs Group UI.vi" Type="VI" URL="../AO Regs Group UI.vi"/>
 			</Item>
 			<Item Name="Check for Holding Register Mapping Conflicts.vi" Type="VI" URL="../SubVIs/Check for Holding Register Mapping Conflicts.vi"/>
-			<Item Name="Validate Holding Register Mapping.vi" Type="VI" URL="../SubVIs/Validate Holding Register Mapping.vi"/>
 		</Item>
 		<Item Name="Input Registers" Type="Folder">
 			<Item Name="GUIDs" Type="Folder">
@@ -93,7 +90,6 @@
 				<Item Name="Bulk Add AI Register.vi" Type="VI" URL="../Bulk Add AI Register.vi"/>
 			</Item>
 			<Item Name="Check for Input Register Mapping Conflicts.vi" Type="VI" URL="../SubVIs/Check for Input Register Mapping Conflicts.vi"/>
-			<Item Name="Validate Mapping.vi" Type="VI" URL="../SubVIs/Shared Methods/Validate Mapping.vi"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Mapping" Type="Folder">
@@ -121,6 +117,7 @@
 			<Item Name="Channel Initialize.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Initialize.vi"/>
 			<Item Name="is input.vi" Type="VI" URL="../SubVIs/Shared Methods/is input.vi"/>
 			<Item Name="Set as Input.vi" Type="VI" URL="../SubVIs/Set as Input.vi"/>
+			<Item Name="Validate Mapping.vi" Type="VI" URL="../SubVIs/Shared Methods/Validate Mapping.vi"/>
 		</Item>
 		<Item Name="Interface Settings" Type="Folder">
 			<Item Name="Serial Settings" Type="Folder">

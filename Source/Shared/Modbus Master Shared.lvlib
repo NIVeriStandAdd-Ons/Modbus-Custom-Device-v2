@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="DataType to Register Size.vi" Type="VI" URL="../../System Explorer/SubVIs/DataType to Register Size.vi"/>
 			<Item Name="modbus type array.vi" Type="VI" URL="../../Engine/SubVIs/modbus type array.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
@@ -28,6 +29,5 @@
 			</Item>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="DataType to Register Size.vi" Type="VI" URL="../../System Explorer/SubVIs/DataType to Register Size.vi"/>
 	</Item>
 </Library>
