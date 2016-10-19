@@ -40,13 +40,6 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="Coils" Type="Folder">
-			<Item Name="Mapping" Type="Folder">
-				<Item Name="Starting Address" Type="Folder">
-					<Item Name="Coil Get Starting Address.vi" Type="VI" URL="../SubVIs/Coil Get Starting Address.vi"/>
-					<Item Name="Coil Set Starting Address.vi" Type="VI" URL="../SubVIs/Coil Set Starting Address.vi"/>
-				</Item>
-				<Item Name="Coil Get Mapping.vi" Type="VI" URL="../SubVIs/Coil Get Mapping.vi"/>
-			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add DO Coil.vi" Type="VI" URL="../SubVIs/Add DO Coil.vi"/>
 				<Item Name="Bulk Add DO Coil.vi" Type="VI" URL="../Bulk Add DO Coil.vi"/>
@@ -61,13 +54,6 @@
 			<Item Name="Validate Coil Mapping.vi" Type="VI" URL="../SubVIs/Validate Coil Mapping.vi"/>
 		</Item>
 		<Item Name="Discrete Inputs" Type="Folder">
-			<Item Name="Mapping" Type="Folder">
-				<Item Name="Starting Address" Type="Folder">
-					<Item Name="Discrete Input Get Starting Address.vi" Type="VI" URL="../SubVIs/Discrete Input Get Starting Address.vi"/>
-					<Item Name="Discrete Input Set Starting Address.vi" Type="VI" URL="../SubVIs/Discrete Input Set Starting Address.vi"/>
-				</Item>
-				<Item Name="Discrete Input Get Mapping.vi" Type="VI" URL="../Discrete Input Get Mapping.vi"/>
-			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add DI Coil.vi" Type="VI" URL="../SubVIs/Add DI Coil.vi"/>
 				<Item Name="Add DI Coil - Right Click.vi" Type="VI" URL="../SubVIs/Add DI Coil - Right Click.vi"/>
@@ -82,22 +68,6 @@
 			<Item Name="Check for Discrete Input Mapping Conflicts.vi" Type="VI" URL="../Check for Discrete Input Mapping Conflicts.vi"/>
 		</Item>
 		<Item Name="Holding Registers" Type="Folder">
-			<Item Name="Mapping" Type="Folder">
-				<Item Name="Starting Address" Type="Folder">
-					<Item Name="Holding Register Get Starting Address.vi" Type="VI" URL="../Holding Register Get Starting Address.vi"/>
-					<Item Name="Holding Register Set Starting Address.vi" Type="VI" URL="../SubVIs/Holding Register Set Starting Address.vi"/>
-				</Item>
-				<Item Name="Sub Address" Type="Folder">
-					<Item Name="Holding Register Get Sub Address.vi" Type="VI" URL="../Holding Register Get Sub Address.vi"/>
-					<Item Name="Holding Register Set SubAddress.vi" Type="VI" URL="../SubVIs/Holding Register Set SubAddress.vi"/>
-				</Item>
-				<Item Name="Data Type" Type="Folder">
-					<Item Name="Holding Register Get Data Type.vi" Type="VI" URL="../Holding Register Get Data Type.vi"/>
-					<Item Name="Holding Register Set DataType.vi" Type="VI" URL="../SubVIs/Holding Register Set DataType.vi"/>
-				</Item>
-				<Item Name="Holding Register Set Mapping.vi" Type="VI" URL="../SubVIs/Holding Register Set Mapping.vi"/>
-				<Item Name="Holding Register Get Mapping.vi" Type="VI" URL="../Holding Register Get Mapping.vi"/>
-			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add AO Register.vi" Type="VI" URL="../SubVIs/Add AO Register.vi"/>
 				<Item Name="Add AO Register - Right Click.vi" Type="VI" URL="../SubVIs/Add AO Register - Right Click.vi"/>
@@ -112,22 +82,6 @@
 			<Item Name="Validate Holding Register Mapping.vi" Type="VI" URL="../SubVIs/Validate Holding Register Mapping.vi"/>
 		</Item>
 		<Item Name="Input Registers" Type="Folder">
-			<Item Name="Mapping" Type="Folder">
-				<Item Name="Starting Address" Type="Folder">
-					<Item Name="Input Register Get Starting Address.vi" Type="VI" URL="../Input Register Get Starting Address.vi"/>
-					<Item Name="Input Register Set Starting Address.vi" Type="VI" URL="../SubVIs/Input Register Set Starting Address.vi"/>
-				</Item>
-				<Item Name="Sub Address" Type="Folder">
-					<Item Name="Input Register Get Sub Address.vi" Type="VI" URL="../SubVIs/Input Register Get Sub Address.vi"/>
-					<Item Name="Input Register Set Sub Address.vi" Type="VI" URL="../SubVIs/Input Register Set Sub Address.vi"/>
-				</Item>
-				<Item Name="Data Type" Type="Folder">
-					<Item Name="Input Register Get Data Type.vi" Type="VI" URL="../Input Register Get Data Type.vi"/>
-					<Item Name="Input Register Set DataType.vi" Type="VI" URL="../SubVIs/Input Register Set DataType.vi"/>
-				</Item>
-				<Item Name="Input Register Set Mapping.vi" Type="VI" URL="../SubVIs/Input Register Set Mapping.vi"/>
-				<Item Name="Input Register Get Mapping.vi" Type="VI" URL="../SubVIs/Input Register Get Mapping.vi"/>
-			</Item>
 			<Item Name="GUIDs" Type="Folder">
 				<Item Name="AI Reg UI.vi" Type="VI" URL="../AI Reg UI.vi"/>
 				<Item Name="AI Regs Group UI.vi" Type="VI" URL="../AI Regs Group UI.vi"/>
@@ -139,15 +93,34 @@
 				<Item Name="Bulk Add AI Register.vi" Type="VI" URL="../Bulk Add AI Register.vi"/>
 			</Item>
 			<Item Name="Check for Input Register Mapping Conflicts.vi" Type="VI" URL="../SubVIs/Check for Input Register Mapping Conflicts.vi"/>
-			<Item Name="Validate Input Register Mapping.vi" Type="VI" URL="../SubVIs/Validate Input Register Mapping.vi"/>
+			<Item Name="Validate Mapping.vi" Type="VI" URL="../SubVIs/Shared Methods/Validate Mapping.vi"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
-			<Item Name="Channel Get Modbus Type.vi" Type="VI" URL="../SubVIs/Channel Get Modbus Type.vi"/>
-			<Item Name="Channel Set Modbus Type.vi" Type="VI" URL="../SubVIs/Channel Set Modbus Type.vi"/>
+			<Item Name="Mapping" Type="Folder">
+				<Item Name="Starting Address" Type="Folder">
+					<Item Name="Channel Get Starting Address.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Get Starting Address.vi"/>
+					<Item Name="Channel Set Starting Address.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Set Starting Address.vi"/>
+				</Item>
+				<Item Name="Sub Address" Type="Folder">
+					<Item Name="Channel Get Sub Address.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Get Sub Address.vi"/>
+					<Item Name="Channel Set Sub Address.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Set Sub Address.vi"/>
+				</Item>
+				<Item Name="Data Type" Type="Folder">
+					<Item Name="Channel Get Data Type.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Get Data Type.vi"/>
+					<Item Name="Channel Set DataType.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Set DataType.vi"/>
+				</Item>
+				<Item Name="Channel Set Mapping.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Set Mapping.vi"/>
+				<Item Name="Channel Get Mapping.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Get Mapping.vi"/>
+			</Item>
+			<Item Name="Channel Get Modbus Type.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Get Modbus Type.vi"/>
+			<Item Name="Channel Set Modbus Type.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Set Modbus Type.vi"/>
 			<Item Name="Bulk Add Dialog.vi" Type="VI" URL="../SubVIs/Bulk Add Dialog.vi"/>
 			<Item Name="Bulk Add Helper.vi" Type="VI" URL="../SubVIs/Bulk Add Helper.vi"/>
 			<Item Name="Get Radix Selection.vi" Type="VI" URL="../SubVIs/Get Radix Selection.vi"/>
 			<Item Name="Set Radix Selection.vi" Type="VI" URL="../Set Radix Selection.vi"/>
+			<Item Name="Channel Initialize.vi" Type="VI" URL="../SubVIs/Shared Methods/Channel Initialize.vi"/>
+			<Item Name="is input.vi" Type="VI" URL="../SubVIs/Shared Methods/is input.vi"/>
+			<Item Name="Set as Input.vi" Type="VI" URL="../SubVIs/Set as Input.vi"/>
 		</Item>
 		<Item Name="Interface Settings" Type="Folder">
 			<Item Name="Serial Settings" Type="Folder">
@@ -184,8 +157,6 @@
 			<Item Name="Add Groups.vi" Type="VI" URL="../SubVIs/Add Groups.vi"/>
 			<Item Name="Generate Channels.vi" Type="VI" URL="../SubVIs/Generate Channels.vi"/>
 			<Item Name="get channel info.vi" Type="VI" URL="../SubVIs/get channel info.vi"/>
-			<Item Name="Is Channel an Input" Type="VI" URL="../SubVIs/Is Channel an Input"/>
-			<Item Name="Set as Input.vi" Type="VI" URL="../SubVIs/Set as Input.vi"/>
 			<Item Name="update name.vi" Type="VI" URL="../SubVIs/update name.vi"/>
 			<Item Name="Generate Mapping Error Name.vi" Type="VI" URL="../SubVIs/Generate Mapping Error Name.vi"/>
 			<Item Name="Format Mapping Error.vi" Type="VI" URL="../SubVIs/Format Mapping Error.vi"/>

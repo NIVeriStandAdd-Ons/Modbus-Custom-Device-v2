@@ -188,6 +188,10 @@
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Holding Register Get Starting Address.vi" Type="VI" URL="../System Explorer/Holding Register Get Starting Address.vi"/>
+			<Item Name="Holding Register Get Data Type.vi" Type="VI" URL="../System Explorer/Holding Register Get Data Type.vi"/>
+			<Item Name="Coil Get Starting Address.vi" Type="VI" URL="../System Explorer/SubVIs/Coil Get Starting Address.vi"/>
+			<Item Name="Discrete Input Get Starting Address.vi" Type="VI" URL="../System Explorer/SubVIs/Discrete Input Get Starting Address.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
