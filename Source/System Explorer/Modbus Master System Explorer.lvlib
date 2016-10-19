@@ -200,6 +200,7 @@
 			<Item Name="Group Channels By VS and MB Type.vi" Type="VI" URL="../Group Channels By VS and MB Type.vi"/>
 			<Item Name="Pop Up Channel Data.vi" Type="VI" URL="../Pop Up Channel Data.vi"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../SubVIs/Direction.ctl"/>
+			<Item Name="String is a number.vi" Type="VI" URL="../SubVIs/String is a number.vi"/>
 		</Item>
 		<Item Name="ActionVIOnCompile" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
@@ -218,5 +219,4 @@
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../SubVIs/ActionVIOnCompile.vi"/>
 		</Item>
 	</Item>
-	<Item Name="String is a number.vi" Type="VI" URL="../SubVIs/String is a number.vi"/>
 </Library>
