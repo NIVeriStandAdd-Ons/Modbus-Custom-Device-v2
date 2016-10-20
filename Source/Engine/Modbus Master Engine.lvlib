@@ -16,10 +16,13 @@
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="check for timeout.vi" Type="VI" URL="../check for timeout.vi"/>
 			<Item Name="Create Input Groups.vi" Type="VI" URL="../SubVIs/Create Input Groups.vi"/>
 			<Item Name="Create Output Groups.vi" Type="VI" URL="../SubVIs/Create Output Groups.vi"/>
 			<Item Name="write coils.vi" Type="VI" URL="../SubVIs/write coils.vi"/>
+			<Item Name="Write Data.vi" Type="VI" URL="../SubVIs/Write Data.vi"/>
 			<Item Name="write discrete inputs.vi" Type="VI" URL="../SubVIs/write discrete inputs.vi"/>
+			<Item Name="Write Errors.vi" Type="VI" URL="../SubVIs/Write Errors.vi"/>
 			<Item Name="Write Holding Registers.vi" Type="VI" URL="../SubVIs/Write Holding Registers.vi"/>
 			<Item Name="write input registers.vi" Type="VI" URL="../SubVIs/write input registers.vi"/>
 		</Item>
@@ -32,9 +35,6 @@
 		<Item Name="To U16s.vi" Type="VI" URL="../SubVIs/To U16s.vi"/>
 		<Item Name="Track Loop Rate.vi" Type="VI" URL="../SubVIs/Track Loop Rate.vi"/>
 	</Item>
-	<Item Name="check for timeout.vi" Type="VI" URL="../check for timeout.vi"/>
 	<Item Name="Modbus Async.vi" Type="VI" URL="../Modbus Async.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
-	<Item Name="Write Data.vi" Type="VI" URL="../SubVIs/Write Data.vi"/>
-	<Item Name="Write Errors.vi" Type="VI" URL="../SubVIs/Write Errors.vi"/>
 </Library>
