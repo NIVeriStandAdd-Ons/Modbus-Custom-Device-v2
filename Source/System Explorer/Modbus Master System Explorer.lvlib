@@ -186,5 +186,6 @@
 			</Item>
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../SubVIs/ActionVIOnCompile.vi"/>
 		</Item>
+		<Item Name="Conflict Table.ctl" Type="VI" URL="../SubVIs/Conflict Table.ctl"/>
 	</Item>
 </Library>
