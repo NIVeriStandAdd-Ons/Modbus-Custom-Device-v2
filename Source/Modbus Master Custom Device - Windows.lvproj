@@ -36,6 +36,7 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="Copy PPL for Target Type.vi" Type="VI" URL="../Utility/Copy PPL for Target Type.vi"/>
 		</Item>
+		<Item Name="Modbus CD Help.chm" Type="Document" URL="../Help/Modbus CD Help.chm"/>
 		<Item Name="Custom Device Modbus Master.xml" Type="Document" URL="../Custom Device Modbus Master.xml"/>
 		<Item Name="Modbus Master Engine.lvlib" Type="Library" URL="../Engine/Modbus Master Engine.lvlib"/>
 		<Item Name="Modbus Master Shared.lvlib" Type="Library" URL="../Shared/Modbus Master Shared.lvlib"/>
@@ -240,7 +241,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Modbus Master/Modbus Master Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2CFFE520-3D35-450F-A5F3-5F8B557FBCA0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0D57DAB0-922B-4E79-9929-663B16CD8746}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Modbus Master.xml</Property>
@@ -294,7 +295,9 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Modbus CD Help.chm</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 			<Item Name="Engine Debug" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{C67C1B30-A649-4BB4-8780-C96741B30EB4}</Property>

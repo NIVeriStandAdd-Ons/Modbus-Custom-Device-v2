@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Modbus Master to Slave Custom Device">
+		<param name="Local" value="Main.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Configuration">
+			<param name="Local" value="Main.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Modbus IO Types">
+			<param name="Local" value="Modbus IO Types.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Coils">
+				<param name="Local" value="Coils.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Discrete Inputs">
+				<param name="Local" value="Discrete Inputs.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Input Registers">
+				<param name="Local" value="Input Registers.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Holding Registers">
+				<param name="Local" value="Holding Registers.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Diagnostics">
+			<param name="Local" value="Diagnostics.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Diagnostics Information">
+				<param name="Local" value="Diagnostics.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Errors">
+				<param name="Local" value="Error.htm">
+				</OBJECT>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>

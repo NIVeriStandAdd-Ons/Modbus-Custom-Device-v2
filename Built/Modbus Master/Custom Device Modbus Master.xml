@@ -104,6 +104,56 @@
 			</Item2Launch>
 			<ButtonList>
 				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Divider</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path></Path>
+					</Glyph>
+					<Type>Separator</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>||</eng>
+						<loc>||</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+				<Button>
 					<ID>Import Config</ID>
 					<Glyph>
 						<Type>To Application Data Dir</Type>
@@ -218,6 +268,33 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -262,6 +339,33 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -306,6 +410,33 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -350,6 +481,33 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -367,6 +525,33 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Modbus Master\Modbus Master Configuration.llb\DI Coil UI.vi</Path>
 			</Item2Launch>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -384,6 +569,33 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Modbus Master\Modbus Master Configuration.llb\DO Coil UI.vi</Path>
 			</Item2Launch>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -418,6 +630,33 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Modbus Master\Modbus Master Configuration.llb\AO Reg UI.vi</Path>
 			</Item2Launch>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -434,6 +673,33 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Modbus Master\Modbus Master Configuration.llb\Ex1.vi</Path>
 			</Item2Launch>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>
@@ -450,6 +716,33 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Modbus Master\Modbus Master Configuration.llb\Ex2.vi</Path>
 			</Item2Launch>
+			<ButtonList>
+				<Button>
+					<ID>Help</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
+					</Glyph>
+					<Type>Notification</Type>
+					<ReferencedGUID/>
+					<ButtonText>
+						<eng>Help</eng>
+						<loc>Help</loc>
+					</ButtonText>
+					<Caption>
+						<eng/>
+						<loc/>
+					</Caption>
+					<TipStrip>
+						<eng/>
+						<loc/>
+					</TipStrip>
+					<Documentation>
+						<eng/>
+						<loc/>			
+					</Documentation>
+				</Button>
+			</ButtonList>
 		</Page>
 		<Page>
 			<Name>

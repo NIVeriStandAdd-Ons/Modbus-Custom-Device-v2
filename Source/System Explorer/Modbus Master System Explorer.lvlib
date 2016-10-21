@@ -169,6 +169,9 @@
 			<Item Name="Pop Up Channel Data.vi" Type="VI" URL="../Pop Up Channel Data.vi"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../SubVIs/Direction.ctl"/>
 			<Item Name="String is a number.vi" Type="VI" URL="../SubVIs/String is a number.vi"/>
+			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
+			<Item Name="Get CHM Path.vi" Type="VI" URL="../SubVIs/Get CHM Path.vi"/>
+			<Item Name="Conflict Table.ctl" Type="VI" URL="../SubVIs/Conflict Table.ctl"/>
 		</Item>
 		<Item Name="ActionVIOnCompile" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
@@ -186,6 +189,5 @@
 			</Item>
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../SubVIs/ActionVIOnCompile.vi"/>
 		</Item>
-		<Item Name="Conflict Table.ctl" Type="VI" URL="../SubVIs/Conflict Table.ctl"/>
 	</Item>
 </Library>
