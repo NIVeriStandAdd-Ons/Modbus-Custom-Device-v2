@@ -20,6 +20,9 @@
 			<Item Name="Check for Value Change.vi" Type="VI" URL="../SubVIs/Check for Value Change.vi"/>
 			<Item Name="Create Input Groups.vi" Type="VI" URL="../SubVIs/Create Input Groups.vi"/>
 			<Item Name="Create Output Groups.vi" Type="VI" URL="../SubVIs/Create Output Groups.vi"/>
+			<Item Name="Initialize Engine Output.vi" Type="VI" URL="../SubVIs/Initialize Engine Output.vi"/>
+			<Item Name="Print Error to Console.vi" Type="VI" URL="../SubVIs/Print Error to Console.vi"/>
+			<Item Name="Print Initialization Message.vi" Type="VI" URL="../SubVIs/Print Initialization Message.vi"/>
 			<Item Name="write coils.vi" Type="VI" URL="../SubVIs/write coils.vi"/>
 			<Item Name="Write Data.vi" Type="VI" URL="../SubVIs/Write Data.vi"/>
 			<Item Name="write discrete inputs.vi" Type="VI" URL="../SubVIs/write discrete inputs.vi"/>
@@ -36,8 +39,6 @@
 		<Item Name="To U16s.vi" Type="VI" URL="../SubVIs/To U16s.vi"/>
 		<Item Name="Track Loop Rate.vi" Type="VI" URL="../SubVIs/Track Loop Rate.vi"/>
 	</Item>
-	<Item Name="Initialize Engine Output.vi" Type="VI" URL="../SubVIs/Initialize Engine Output.vi"/>
 	<Item Name="Modbus Async.vi" Type="VI" URL="../Modbus Async.vi"/>
-	<Item Name="Print Initialization Message.vi" Type="VI" URL="../SubVIs/Print Initialization Message.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
