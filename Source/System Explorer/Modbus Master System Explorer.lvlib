@@ -76,15 +76,15 @@
 			<Item Name="Check for Holding Register Mapping Conflicts.vi" Type="VI" URL="../SubVIs/Check for Holding Register Mapping Conflicts.vi"/>
 		</Item>
 		<Item Name="Input Registers" Type="Folder">
-			<Item Name="GUIDs" Type="Folder">
-				<Item Name="AI Reg UI.vi" Type="VI" URL="../AI Reg UI.vi"/>
-				<Item Name="AI Regs Group UI.vi" Type="VI" URL="../AI Regs Group UI.vi"/>
-			</Item>
 			<Item Name="Add" Type="Folder">
 				<Item Name="Add AI Register.vi" Type="VI" URL="../SubVIs/Add AI Register.vi"/>
 				<Item Name="Add AI Register - Right Click.vi" Type="VI" URL="../SubVIs/Add AI Register - Right Click.vi"/>
 				<Item Name="Bulk Add AI Register - Right Click.vi" Type="VI" URL="../Bulk Add AI Register - Right Click.vi"/>
 				<Item Name="Bulk Add AI Register.vi" Type="VI" URL="../Bulk Add AI Register.vi"/>
+			</Item>
+			<Item Name="GUIDs" Type="Folder">
+				<Item Name="AI Reg UI.vi" Type="VI" URL="../AI Reg UI.vi"/>
+				<Item Name="AI Regs Group UI.vi" Type="VI" URL="../AI Regs Group UI.vi"/>
 			</Item>
 			<Item Name="Check for Input Register Mapping Conflicts.vi" Type="VI" URL="../SubVIs/Check for Input Register Mapping Conflicts.vi"/>
 		</Item>
@@ -115,6 +115,8 @@
 			<Item Name="is input.vi" Type="VI" URL="../SubVIs/Shared Methods/is input.vi"/>
 			<Item Name="Set as Input.vi" Type="VI" URL="../SubVIs/Set as Input.vi"/>
 			<Item Name="Validate Mapping.vi" Type="VI" URL="../SubVIs/Shared Methods/Validate Mapping.vi"/>
+			<Item Name="Bulk Delete Prompt.vi" Type="VI" URL="../SubVIs/Bulk Delete Prompt.vi"/>
+			<Item Name="Bulk Delete Wrapper.vi" Type="VI" URL="../SubVIs/Bulk Delete Wrapper.vi"/>
 		</Item>
 		<Item Name="Interface Settings" Type="Folder">
 			<Item Name="Serial Settings" Type="Folder">
