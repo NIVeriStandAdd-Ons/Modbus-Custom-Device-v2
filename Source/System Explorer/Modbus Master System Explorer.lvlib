@@ -22,10 +22,6 @@
 				<Item Name="Export to Config.vi" Type="VI" URL="../SubVIs/Export to Config.vi"/>
 				<Item Name="Import From Config.vi" Type="VI" URL="../SubVIs/CSV/Import From Config.vi"/>
 			</Item>
-			<Item Name="Kepware" Type="Folder">
-				<Item Name="Export to Kepware Server.vi" Type="VI" URL="../SubVIs/Kepware/Export to Kepware Server.vi"/>
-				<Item Name="To Standard Name.vi" Type="VI" URL="../SubVIs/Kepware/To Standard Name.vi"/>
-			</Item>
 		</Item>
 		<Item Name="Main Page" Type="Folder">
 			<Item Name="Extra Pages" Type="Folder">
