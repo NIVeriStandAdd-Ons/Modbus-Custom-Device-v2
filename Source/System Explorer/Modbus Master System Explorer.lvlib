@@ -21,6 +21,7 @@
 				</Item>
 				<Item Name="Export to Config.vi" Type="VI" URL="../SubVIs/Export to Config.vi"/>
 				<Item Name="Import From Config.vi" Type="VI" URL="../SubVIs/CSV/Import From Config.vi"/>
+				<Item Name="Import Options Dialog.vi" Type="VI" URL="../SubVIs/Import Options Dialog.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Main Page" Type="Folder">
