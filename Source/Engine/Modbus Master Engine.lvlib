@@ -31,7 +31,12 @@
 			<Item Name="write input registers.vi" Type="VI" URL="../SubVIs/write input registers.vi"/>
 		</Item>
 	</Item>
-	<Item Name="SubVIs" Type="Folder"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Read Coils from Slave.vi" Type="VI" URL="../SubVIs/Read Coils from Slave.vi"/>
+		<Item Name="Read Discrete from Slave.vi" Type="VI" URL="../SubVIs/Read Discrete from Slave.vi"/>
+		<Item Name="Read Holding Registers.vi" Type="VI" URL="../SubVIs/Read Holding Registers.vi"/>
+		<Item Name="Read Input Registers from Slave.vi" Type="VI" URL="../SubVIs/Read Input Registers from Slave.vi"/>
+	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="From U16.vi" Type="VI" URL="../SubVIs/From U16.vi"/>
 		<Item Name="Map Channels to Doubles.vi" Type="VI" URL="../SubVIs/Map Channels to Doubles.vi"/>
