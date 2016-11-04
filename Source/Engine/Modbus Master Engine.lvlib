@@ -36,6 +36,7 @@
 		<Item Name="Read Discrete from Slave.vi" Type="VI" URL="../SubVIs/Read Discrete from Slave.vi"/>
 		<Item Name="Read Holding Registers.vi" Type="VI" URL="../SubVIs/Read Holding Registers.vi"/>
 		<Item Name="Read Input Registers from Slave.vi" Type="VI" URL="../SubVIs/Read Input Registers from Slave.vi"/>
+		<Item Name="Set and Print Serial Wire Mode to Console.vi" Type="VI" URL="../SubVIs/Set and Print Serial Wire Mode to Console.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="From U16.vi" Type="VI" URL="../SubVIs/From U16.vi"/>
