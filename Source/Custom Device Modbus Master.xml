@@ -7,7 +7,7 @@
 	</AddMenu>
 	<Version>1.0.0</Version>
 	<Type>Inline HW Interface</Type>
-	<MaxOccurrence>5</MaxOccurrence>
+	<MaxOccurrence>255</MaxOccurrence>
 	<MainPageGUID>1199cc90-62ea-4be2-b123-96c31660e707</MainPageGUID>
 	<InitializationVI>
 		<Type>Action</Type>

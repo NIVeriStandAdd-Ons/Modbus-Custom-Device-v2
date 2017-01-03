@@ -176,9 +176,6 @@
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
@@ -188,17 +185,46 @@
 				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
 				<Item Name="GetTargetBuildSpecs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs.vi"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
+				<Item Name="Process.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass/Process.ctl"/>
+				<Item Name="Write.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass/Write.ctl"/>
+				<Item Name="Data.Processes.Execute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
+				<Item Name="Async.Processes.Report.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.Report.vi"/>
+				<Item Name="Read Data Access.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Data Member Access/Read Data Access.vi"/>
+				<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
+				<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
+				<Item Name="Write.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Lookup.vi"/>
+				<Item Name="Read.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.lvclass/Read.ctl"/>
+				<Item Name="Read.Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Read.Data.vi"/>
+				<Item Name="Read.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.ProcessData.vi"/>
+				<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
+				<Item Name="VS Inline Async API.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
+				<Item Name="Data Access Engine.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
+				<Item Name="ReadWrite.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
+				<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
+				<Item Name="Async.Engine.Write Data to HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Write Data to HW.vi"/>
+				<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
+				<Item Name="Data.Engine.Write Data to HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Write Data to HW.vi"/>
+				<Item Name="ReadWrite.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.EngineData.vi"/>
+				<Item Name="Write.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.EngineData.vi"/>
+				<Item Name="Read.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.EngineData.vi"/>
+				<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
+				<Item Name="Async.Engine.Start.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
+				<Item Name="Async.Engine.Close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
+				<Item Name="Data.OnCompile.Execute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access System Explorer/Methods/Data.OnCompile.Execute.vi"/>
+				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Validate Discrete Input Mapping.vi" Type="VI" URL="../System Explorer/SubVIs/Validate Discrete Input Mapping.vi"/>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="Export to Kepware Server.vi" Type="VI" URL="../System Explorer/SubVIs/Kepware/Export to Kepware Server.vi"/>
 			<Item Name="To Standard Name.vi" Type="VI" URL="../System Explorer/SubVIs/Kepware/To Standard Name.vi"/>
+			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
