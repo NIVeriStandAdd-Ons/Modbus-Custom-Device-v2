@@ -26,6 +26,7 @@
 				<Item Name="Serial Settings.ctl" Type="VI" URL="../Controls/Data Model/Serial Settings.ctl"/>
 				<Item Name="Serial Type.ctl" Type="VI" URL="../Controls/Serial Type.ctl"/>
 				<Item Name="TCP Settings.ctl" Type="VI" URL="../Controls/Data Model/TCP Settings.ctl"/>
+				<Item Name="Write Mode.ctl" Type="VI" URL="../Write Mode.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>

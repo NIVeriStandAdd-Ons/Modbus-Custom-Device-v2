@@ -136,6 +136,10 @@
 			<Item Name="Get Interface Info.vi" Type="VI" URL="../SubVIs/Get Interface Info.vi"/>
 			<Item Name="Get Max Group Size.vi" Type="VI" URL="../SubVIs/Get Max Group Size.vi"/>
 			<Item Name="Set Max Group Size.vi" Type="VI" URL="../Set Max Group Size.vi"/>
+			<Item Name="Set Write Mode.vi" Type="VI" URL="../Set Write Mode.vi"/>
+			<Item Name="Get Write Mode.vi" Type="VI" URL="../Get Write Mode.vi"/>
+			<Item Name="Set Write Rate.vi" Type="VI" URL="../Set Write Rate.vi"/>
+			<Item Name="Get Write Rate.vi" Type="VI" URL="../Get Write Rate.vi"/>
 		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Node In VI.vit" Type="VI" URL="../SubVIs/Node In VI.vit"/>
