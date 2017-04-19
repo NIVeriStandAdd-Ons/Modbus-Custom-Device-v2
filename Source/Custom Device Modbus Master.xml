@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
@@ -110,47 +110,47 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
 					<ID>Divider</ID>
 					<Glyph>
 						<Type>To Application Data Dir</Type>
-						<Path></Path>
+						<Path />
 					</Glyph>
 					<Type>Separator</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>||</eng>
 						<loc>||</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
@@ -160,22 +160,22 @@
 						<Path>System Explorer\Glyphs\import.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Import Config</eng>
 						<loc>Import Config</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 				<Button>
@@ -185,22 +185,22 @@
 						<Path>System Explorer\Glyphs\export.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Export Config</eng>
 						<loc>Export Config</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -209,7 +209,6 @@
 				<Path>Custom Devices\Modbus Master\Modbus Master Configuration.llb\ActionVIOnCompile.vi</Path>
 			</ActionVIOnCompile>
 		</Page>
-
 		<Page>
 			<Name>
 				<eng>Interface UI</eng>
@@ -288,22 +287,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -371,22 +370,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -454,22 +453,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -537,22 +536,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -581,22 +580,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -625,22 +624,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -686,22 +685,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -729,22 +728,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -772,22 +771,22 @@
 						<Path>System Explorer\Glyphs\RM Information Channels.png</Path>
 					</Glyph>
 					<Type>Notification</Type>
-					<ReferencedGUID/>
+					<ReferencedGUID />
 					<ButtonText>
 						<eng>Help</eng>
 						<loc>Help</loc>
 					</ButtonText>
 					<Caption>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</Caption>
 					<TipStrip>
-						<eng/>
-						<loc/>
+						<eng />
+						<loc />
 					</TipStrip>
 					<Documentation>
-						<eng/>
-						<loc/>			
+						<eng />
+						<loc />
 					</Documentation>
 				</Button>
 			</ButtonList>
@@ -839,6 +838,6 @@
 		</Page>
 	</Pages>
 	<CustomXML>
-		<Dummy/>
+		<Dummy />
 	</CustomXML>
 </CustomDevice>

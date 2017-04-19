@@ -29,13 +29,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
-			<Item Name="Copy PPL for Target Type.vi" Type="VI" URL="../Utility/Copy PPL for Target Type.vi"/>
-			<Item Name="Build All.vi" Type="VI" URL="../Utility/Build All.vi"/>
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Copy PPL for Target Type.vi" Type="VI" URL="../Utility/Copy PPL for Target Type.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Build All.vi" Type="VI" URL="../Utility/Build All.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Modbus CD Help.chm" Type="Document" URL="../Help/Modbus CD Help.chm"/>
 		<Item Name="Custom Device Modbus Master.xml" Type="Document" URL="../Custom Device Modbus Master.xml"/>
@@ -48,7 +54,9 @@
 					<Item Name="Modbus Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/API/Master/Modbus Master.lvclass"/>
 				</Item>
 				<Item Name="Slave" Type="Folder">
-					<Item Name="Check Object Lengths.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/API/Slave/Check Object Lengths.vi"/>
+					<Item Name="Check Object Lengths.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/API/Slave/Check Object Lengths.vi">
+						<Property Name="marked" Type="Int">0</Property>
+					</Item>
 					<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/API/Slave/Modbus Slave.lvclass"/>
 				</Item>
 				<Item Name="Wrapper" Type="Folder">
@@ -60,14 +68,20 @@
 				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Data Model/Device Data Model.lvclass"/>
 			</Item>
 			<Item Name="Examples" Type="Folder">
-				<Item Name="Modbus Master Example.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Examples/Modbus Master Example.vi"/>
-				<Item Name="Modbus Slave Example.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Examples/Modbus Slave Example.vi"/>
+				<Item Name="Modbus Master Example.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Examples/Modbus Master Example.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Modbus Slave Example.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Examples/Modbus Slave Example.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 			<Item Name="Master Function Definition" Type="Folder">
 				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Master Function Definition/Master Function Definition.lvclass"/>
 			</Item>
 			<Item Name="Modbus Data Unit" Type="Folder">
-				<Item Name="Function.ctl" Type="VI" URL="../Engine/Modbus API.lvlibp/Modbus Data Unit/Function.ctl"/>
+				<Item Name="Function.ctl" Type="VI" URL="../Engine/Modbus API.lvlibp/Modbus Data Unit/Function.ctl">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 				<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Modbus Data Unit/Modbus Data Unit.lvclass"/>
 			</Item>
 			<Item Name="Network Protocol" Type="Folder">
@@ -90,7 +104,9 @@
 					<Item Name="Network Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Slave/Network Slave.lvclass"/>
 				</Item>
 				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Protocol.lvclass"/>
-				<Item Name="TCP_NODELAY.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Network Protocol/TCP_NODELAY.vi"/>
+				<Item Name="TCP_NODELAY.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Network Protocol/TCP_NODELAY.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 			<Item Name="Palette2" Type="Folder">
 				<Item Name="_functions_ni_lib_modbus_library_3.mnu" Type="Document" URL="../Engine/Modbus API.lvlibp/Palette2/_functions_ni_lib_modbus_library_3.mnu"/>
@@ -120,16 +136,35 @@
 				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/Transmission Data Unit.lvclass"/>
 			</Item>
 			<Item Name="Utility" Type="Folder">
-				<Item Name="Bits to Bytes.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bits to Bytes.vi"/>
-				<Item Name="Bytes to Bits.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bytes to Bits.vi"/>
-				<Item Name="Bytes to U16s.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bytes to U16s.vi"/>
-				<Item Name="Generate UUID.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Generate UUID.vi"/>
-				<Item Name="U16s to Bytes.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/U16s to Bytes.vi"/>
+				<Item Name="Bits to Bytes.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bits to Bytes.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Bytes to Bits.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bytes to Bits.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Bytes to U16s.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bytes to U16s.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="Generate UUID.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Generate UUID.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
+				<Item Name="U16s to Bytes.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/U16s to Bytes.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+			<Item Name="Clear Errors.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/tcp.llb/TCP Get Raw Net Object.vi">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
+			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl">
+				<Property Name="marked" Type="Int">0</Property>
+			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
