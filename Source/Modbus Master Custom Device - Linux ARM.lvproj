@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="19008000">
 	<Property Name="PrivateNetwork.CycleTime" Type="Int">1000</Property>
 	<Property Name="PrivateNetwork.GUIDTable" Type="Bin">&amp;1#!!!!!!!1!+E!Q`````S"(65F%,V*F:G6S:7ZD:6:B=EZB&lt;75P1W^N=%FU:7V*2!!!$5!$!!&gt;/&gt;7VF=GFD!'A!]&lt;YKPOU!!!!#*UZ*8U2F&gt;'6S&lt;7FO;8.U;7-A4G6U&gt;W^S;S"1=G^W;72F=CZM&gt;GRJ9B./5%&amp;U&gt;(*J9H6U:5RJ=X1O9X2M!#2!5!!#!!!!!26798*J97*M:3"(65F%)'VB=("J&lt;G=!)%"!!!(`````!!)44G^E:3""&gt;(2S;7*V&gt;'5A4'FT&gt;!!"!!-!!!!!!!!!!!</Property>
 	<Property Name="PrivateNetwork.NetworkName" Type="Str">Network_0</Property>
@@ -302,95 +302,7 @@
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
-		<Item Name="Modbus API.lvlibp" Type="LVLibp" URL="../Engine/Modbus API.lvlibp">
-			<Item Name="API" Type="Folder">
-				<Item Name="Master" Type="Folder">
-					<Item Name="Modbus Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/API/Master/Modbus Master.lvclass"/>
-				</Item>
-				<Item Name="Slave" Type="Folder">
-					<Item Name="Check Object Lengths.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/API/Slave/Check Object Lengths.vi"/>
-					<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/API/Slave/Modbus Slave.lvclass"/>
-				</Item>
-				<Item Name="Wrapper" Type="Folder">
-					<Item Name="API Main.lvlib" Type="Library" URL="../Engine/Modbus API.lvlibp/API/Wrapper/API Main.lvlib"/>
-				</Item>
-				<Item Name="Modbus API.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/API/Modbus API.lvclass"/>
-			</Item>
-			<Item Name="Data Model" Type="Folder">
-				<Item Name="Device Data Model.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Data Model/Device Data Model.lvclass"/>
-			</Item>
-			<Item Name="Examples" Type="Folder">
-				<Item Name="Modbus Master Example.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Examples/Modbus Master Example.vi"/>
-				<Item Name="Modbus Slave Example.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Examples/Modbus Slave Example.vi"/>
-			</Item>
-			<Item Name="Master Function Definition" Type="Folder">
-				<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Master Function Definition/Master Function Definition.lvclass"/>
-			</Item>
-			<Item Name="Modbus Data Unit" Type="Folder">
-				<Item Name="Function.ctl" Type="VI" URL="../Engine/Modbus API.lvlibp/Modbus Data Unit/Function.ctl"/>
-				<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Modbus Data Unit/Modbus Data Unit.lvclass"/>
-			</Item>
-			<Item Name="Network Protocol" Type="Folder">
-				<Item Name="Network Master" Type="Folder">
-					<Item Name="Serial" Type="Folder">
-						<Item Name="Serial Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
-					</Item>
-					<Item Name="TCP" Type="Folder">
-						<Item Name="TCP Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
-					</Item>
-					<Item Name="Network Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Master/Network Master.lvclass"/>
-				</Item>
-				<Item Name="Network Slave" Type="Folder">
-					<Item Name="Serial" Type="Folder">
-						<Item Name="Serial Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
-					</Item>
-					<Item Name="TCP" Type="Folder">
-						<Item Name="TCP Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
-					</Item>
-					<Item Name="Network Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Slave/Network Slave.lvclass"/>
-				</Item>
-				<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Protocol.lvclass"/>
-				<Item Name="TCP_NODELAY.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Network Protocol/TCP_NODELAY.vi"/>
-			</Item>
-			<Item Name="Palette2" Type="Folder">
-				<Item Name="_functions_ni_lib_modbus_library_3.mnu" Type="Document" URL="../Engine/Modbus API.lvlibp/Palette2/_functions_ni_lib_modbus_library_3.mnu"/>
-			</Item>
-			<Item Name="Serial Shared Components" Type="Folder">
-				<Item Name="Serial Shared Components.lvlib" Type="Library" URL="../Engine/Modbus API.lvlibp/Serial Shared Components/Serial Shared Components.lvlib"/>
-			</Item>
-			<Item Name="Standard Data Model" Type="Folder">
-				<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Standard Data Model/Standard Data Model.lvclass"/>
-			</Item>
-			<Item Name="TCP Shared Components" Type="Folder">
-				<Item Name="TCP Shared Components.lvlib" Type="Library" URL="../Engine/Modbus API.lvlibp/TCP Shared Components/TCP Shared Components.lvlib"/>
-			</Item>
-			<Item Name="Transmission Data Unit" Type="Folder">
-				<Item Name="ASCII" Type="Folder">
-					<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
-				</Item>
-				<Item Name="IP" Type="Folder">
-					<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
-				</Item>
-				<Item Name="RTU" Type="Folder">
-					<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
-				</Item>
-				<Item Name="Serial Interface" Type="Folder">
-					<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
-				</Item>
-				<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/Transmission Data Unit.lvclass"/>
-			</Item>
-			<Item Name="Utility" Type="Folder">
-				<Item Name="Bits to Bytes.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bits to Bytes.vi"/>
-				<Item Name="Bytes to Bits.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bytes to Bits.vi"/>
-				<Item Name="Bytes to U16s.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Bytes to U16s.vi"/>
-				<Item Name="Generate UUID.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/Generate UUID.vi"/>
-				<Item Name="U16s to Bytes.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/Utility/U16s to Bytes.vi"/>
-			</Item>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Engine/Modbus API.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
-		</Item>
+		<Item Name="Modbus API.lvlibp" Type="LVLibp" URL="../Engine/Modbus API.lvlibp"/>
 		<Item Name="Modbus Master Engine.lvlib" Type="Library" URL="../Engine/Modbus Master Engine.lvlib"/>
 		<Item Name="Modbus Master Shared.lvlib" Type="Library" URL="../Shared/Modbus Master Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -400,7 +312,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -430,15 +342,30 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="API Main.lvlib" Type="Library" URL="../Engine/Modbus API.lvlibp/API/Wrapper/API Main.lvlib"/>
+			<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
+			<Item Name="Device Data Model.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Data Model/Device Data Model.lvclass"/>
+			<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
+			<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Master Function Definition/Master Function Definition.lvclass"/>
+			<Item Name="Modbus API.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/API/Modbus API.lvclass"/>
+			<Item Name="Modbus Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/API/Master/Modbus Master.lvclass"/>
+			<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/API/Slave/Modbus Slave.lvclass"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="Network Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Master/Network Master.lvclass"/>
+			<Item Name="Network Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Slave/Network Slave.lvclass"/>
+			<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
+			<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
+			<Item Name="Serial Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
+			<Item Name="Serial Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
+			<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Standard Data Model/Standard Data Model.lvclass"/>
+			<Item Name="TCP Master.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
+			<Item Name="TCP Slave.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
+			<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="../Engine/Modbus API.lvlibp/Transmission Data Unit/Transmission Data Unit.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
