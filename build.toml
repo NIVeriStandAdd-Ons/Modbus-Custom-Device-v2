@@ -1,0 +1,35 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\protection_addon'
+
+[projects.cd]
+path = 'Source\Modbus Master Custom Device - Windows.lvproj'
+path = 'Source\Modbus Master Custom Device - Linux ARM.lvproj'
+path = 'Source\Modbus Master Custom Device - RT PXI.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+
+
+[package]
+type = 'nipkg'
+name = 'modbus_master-{veristand_version}'
+dev_xml_path = 'Source\Custom Device Modbus Master.xml'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
+
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'
+2018_release_branches = ["master",]
+2019_release_branches = ["master",]
+2020_release_branches = ["master",]
