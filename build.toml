@@ -1,7 +1,3 @@
-[archive]
-build_output_dir = 'Built'
-archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\protection_addon'
-
 [projects.cd]
 path = 'Source\Modbus Master Custom Device - Windows.lvproj'
 path = 'Source\Modbus Master Custom Device - Linux ARM.lvproj'
