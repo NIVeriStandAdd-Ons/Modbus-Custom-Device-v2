@@ -24,6 +24,7 @@ build_spec = 'Engine Release'
 name = 'Engine Libraries'
 type = 'lvBuildSpec'
 project = '{cdLinux}'
+target = 'RT CompactRIO Target - Linux ARM'
 build_spec = 'Engine Release'
 
 
@@ -31,6 +32,7 @@ build_spec = 'Engine Release'
 name = 'Engine Libraries'
 type = 'lvBuildSpec'
 project = '{cdPharlap}'
+target = 'RT PXI Target'
 build_spec = 'Engine Release'
 
 
