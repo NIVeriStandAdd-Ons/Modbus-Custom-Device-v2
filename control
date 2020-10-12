@@ -3,7 +3,7 @@ Version: {nipkg_version}
 Architecture: windows_all
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description:  TThe Modbus Custom Device allows Modbus Serial or Modbus TCP Communication
+Description:  The Modbus Custom Device allows Modbus Serial or Modbus TCP Communication
 XB-Eula:  
 Priority: standard
 Homepage: http://www.ni.com
