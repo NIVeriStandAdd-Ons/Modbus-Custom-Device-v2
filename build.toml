@@ -1,7 +1,3 @@
-[dependencies.Modbus-Custom-Device-PPL]
-libraries = ['Modbus API.lvlibp']
-copy_location = 'Source\Engine'
-
 [projects.cd]
 path = 'Source\Modbus Master Custom Device - Windows.lvproj'
 
