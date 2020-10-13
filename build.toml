@@ -15,13 +15,14 @@ target = 'My Computer'
 build_spec = 'Configuration Release'
 
 [[build.steps]]
-name = 'Engine Libraries'
-type = 'lvBuildSpecAllTargets'
+name = 'Engine Library Windows'
+type = 'lvBuildSpec'
 project = '{cd}'
+target = 'My Computer'
 build_spec = 'Engine Release'
 
 [[build.steps]]
-name = 'Engine Libraries'
+name = 'Engine Library Linux'
 type = 'lvBuildSpec'
 project = '{cdLinux}'
 target = 'RT CompactRIO Target - Linux ARM'
@@ -29,7 +30,7 @@ build_spec = 'Engine Release'
 
 
 [[build.steps]]
-name = 'Engine Libraries'
+name = 'Engine Library Pharlap'
 type = 'lvBuildSpec'
 project = '{cdPharlap}'
 target = 'RT PXI Target'
