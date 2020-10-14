@@ -21,21 +21,6 @@ project = '{cd}'
 target = 'My Computer'
 build_spec = 'Engine Release'
 
-[[build.steps]]
-name = 'Engine Library Linux'
-type = 'lvBuildSpec'
-project = '{cdLinux}'
-target = 'RT CompactRIO Target - Linux ARM'
-build_spec = 'Engine Release'
-
-
-[[build.steps]]
-name = 'Engine Library Pharlap'
-type = 'lvBuildSpec'
-project = '{cdPharlap}'
-target = 'RT PXI Target'
-build_spec = 'Engine Release'
-
 
 [package]
 type = 'nipkg'
