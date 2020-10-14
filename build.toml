@@ -1,3 +1,7 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\modbus-master-custom-device-v2'
+
 [projects.cd]
 path = 'Source\Modbus Master Custom Device - Windows.lvproj'
 
