@@ -1,5 +1,5 @@
 [My Computer]
-My Computer = "130.164.32.94"
+My Computer = "192.168.4.8"
 
 [RT CompactRIO Target]
 RT CompactRIO Target = "0.0.0.0"
@@ -12,4 +12,3 @@ RT CompactRIO Target - Linux x64 = "0.0.0.0"
 
 [RT PXI Target]
 RT PXI Target = "0.0.0.0"
-
