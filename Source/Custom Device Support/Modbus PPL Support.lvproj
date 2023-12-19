@@ -57,7 +57,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CDF6F47D-99A6-43A4-BD48-1CDD43904363}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Modbus API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Support/Windows/Modbus API.lvlibp</Property>
