@@ -132,6 +132,9 @@
 			<Item Name="Input Channel Data.ctl" Type="VI" URL="../Shared/Controls/Data Model/Input Channel Data.ctl"/>
 			<Item Name="Output Channel Data.ctl" Type="VI" URL="../Shared/Controls/Data Model/Output Channel Data.ctl"/>
 			<Item Name="Input References.ctl" Type="VI" URL="../Shared/Controls/Data Model/Input References.ctl"/>
+			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -563,6 +566,9 @@ AddOutputFilter chunkFilter
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
@@ -614,7 +620,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{45C3A44D-8009-481C-8901-1B675187B04B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{95A396BD-1C9D-4119-826F-88118BD1130D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Modbus Master Engine.lvlib/RT Driver VI.vi</Property>
