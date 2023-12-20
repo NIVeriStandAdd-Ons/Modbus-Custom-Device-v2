@@ -108,16 +108,9 @@
 				<Item Name="Invoke BuildTarget.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Invoke BuildTarget.vi"/>
 				<Item Name="NI_App_Builder_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_API_Simple/NI_App_Builder_API.lvlib"/>
 				<Item Name="GetTargetBuildSpecs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/GetTargetBuildSpecs.vi"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Modbus/master/Modbus Master.lvclass"/>
 				<Item Name="SubVIs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Modbus/subvis/SubVIs.lvlib"/>
-				<Item Name="Create Modbus Instance.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/Create Modbus Instance.vi"/>
-				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Master/Modbus Master.lvclass"/>
-				<Item Name="Create TCP Master.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/Create TCP Master.vi"/>
-				<Item Name="Create Serial Master.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/Create Serial Master.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -125,13 +118,10 @@
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="Export to Kepware Server.vi" Type="VI" URL="../System Explorer/SubVIs/Kepware/Export to Kepware Server.vi"/>
 			<Item Name="To Standard Name.vi" Type="VI" URL="../System Explorer/SubVIs/Kepware/To Standard Name.vi"/>
+			<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeriStand_DataServices.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Input Channel Data.ctl" Type="VI" URL="../Shared/Controls/Data Model/Input Channel Data.ctl"/>
-			<Item Name="Output Channel Data.ctl" Type="VI" URL="../Shared/Controls/Data Model/Output Channel Data.ctl"/>
-			<Item Name="Input References.ctl" Type="VI" URL="../Shared/Controls/Data Model/Input References.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -282,7 +272,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Modbus Master/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C63B5BDE-BB5A-4A1B-B427-501F43F08C47}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E7A42B97-860A-4D0A-9201-31CCA11D2193}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Modbus Master Engine.lvlib/RT Driver VI.vi</Property>
@@ -297,50 +287,35 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Modbus Master Engine.lvlib/Engine</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Modbus Master Shared.lvlib/Shared</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Modbus Master Shared.lvlib/Shared</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -433,7 +408,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -452,7 +426,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -464,105 +437,119 @@ AddOutputFilter chunkFilter
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Modbus API.lvlibp" Type="LVLibp" URL="../../../Includes/Modbus API.lvlibp">
-				<Item Name="API" Type="Folder">
-					<Item Name="Master" Type="Folder">
-						<Item Name="Modbus Master.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/API/Master/Modbus Master.lvclass"/>
+			<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
+			<Item Name="Async.Engine.Close.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
+			<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
+			<Item Name="Async.Engine.Start.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
+			<Item Name="Deconstruct PDU.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Modbus Data Unit/Deconstruct PDU.vi"/>
+			<Item Name="Device Data Model.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Data Model/Device Data Model.lvclass"/>
+			<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
+			<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Master Function Definition/Master Function Definition.lvclass"/>
+			<Item Name="Modbus API.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/API/Modbus API.lvclass"/>
+			<Item Name="Modbus Data Unit.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Modbus Data Unit/Modbus Data Unit.lvclass/Modbus Data Unit.ctl"/>
+			<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Modbus Data Unit/Modbus Data Unit.lvclass"/>
+			<Item Name="Modbus Engine.lvlibp" Type="LVLibp" URL="../../../Includes/Modbus Engine.lvlibp">
+				<Item Name="Engine" Type="Folder">
+					<Item Name="Init" Type="Folder">
+						<Item Name="Initialize Data Buffer.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Initialize Data Buffer.vi"/>
+						<Item Name="Initialize Modbus Master Connection.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Initialize Modbus Master Connection.vi"/>
+						<Item Name="Initialize Modbus Slave Connection.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Initialize Modbus Slave Connection.vi"/>
+						<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/Initialize VeriStand Globals.vi"/>
 					</Item>
-					<Item Name="Slave" Type="Folder">
-						<Item Name="Check Object Lengths.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/API/Slave/Check Object Lengths.vi"/>
-						<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/API/Slave/Modbus Slave.lvclass"/>
+					<Item Name="Run" Type="Folder">
+						<Item Name="From Modbus To Veristand.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/From Modbus To Veristand.vi"/>
+						<Item Name="From Veristand Master To Modbus.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/From Veristand Master To Modbus.vi"/>
 					</Item>
-					<Item Name="Wrapper" Type="Folder">
-						<Item Name="API Main.lvlib" Type="Library" URL="../../../Includes/Modbus API.lvlibp/API/Wrapper/API Main.lvlib"/>
+					<Item Name="Shut Down" Type="Folder"/>
+					<Item Name="SubVIs" Type="Folder">
+						<Item Name="check for timeout.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/check for timeout.vi"/>
+						<Item Name="Check for Value Change.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Check for Value Change.vi"/>
+						<Item Name="Create Input Groups.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Create Input Groups.vi"/>
+						<Item Name="Create Output Groups.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Create Output Groups.vi"/>
+						<Item Name="Initialize Engine Output.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Initialize Engine Output.vi"/>
+						<Item Name="Print Error to Console.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Print Error to Console.vi"/>
+						<Item Name="Print Initialization Message.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Print Initialization Message.vi"/>
+						<Item Name="write coils.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/write coils.vi"/>
+						<Item Name="Write Data.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Write Data.vi"/>
+						<Item Name="write discrete inputs.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/write discrete inputs.vi"/>
+						<Item Name="Write Errors.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Write Errors.vi"/>
+						<Item Name="Write Holding Registers.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Write Holding Registers.vi"/>
+						<Item Name="write input registers.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/write input registers.vi"/>
 					</Item>
-					<Item Name="Modbus API.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/API/Modbus API.lvclass"/>
 				</Item>
-				<Item Name="Data Model" Type="Folder">
-					<Item Name="Device Data Model.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Data Model/Device Data Model.lvclass"/>
+				<Item Name="SubVIs" Type="Folder">
+					<Item Name="Read Coils from Slave.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Read Coils from Slave.vi"/>
+					<Item Name="Read Discrete from Slave.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Read Discrete from Slave.vi"/>
+					<Item Name="Read Holding Registers.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Read Holding Registers.vi"/>
+					<Item Name="Read Input Registers from Slave.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Read Input Registers from Slave.vi"/>
+					<Item Name="Set and Print Serial Wire Mode to Console.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Set and Print Serial Wire Mode to Console.vi"/>
 				</Item>
-				<Item Name="Examples" Type="Folder">
-					<Item Name="Modbus Master Example.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Examples/Modbus Master Example.vi"/>
-					<Item Name="Modbus Slave Example.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Examples/Modbus Slave Example.vi"/>
+				<Item Name="Types" Type="Folder">
+					<Item Name="From U16.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/From U16.vi"/>
+					<Item Name="Map Channels to Doubles.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Map Channels to Doubles.vi"/>
+					<Item Name="RTStateData.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/RTStateData.ctl"/>
+					<Item Name="To U16s.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/To U16s.vi"/>
+					<Item Name="Track Loop Rate.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/SubVIs/Track Loop Rate.vi"/>
 				</Item>
-				<Item Name="Master Function Definition" Type="Folder">
-					<Item Name="Master Function Definition.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Master Function Definition/Master Function Definition.lvclass"/>
-				</Item>
-				<Item Name="Modbus Data Unit" Type="Folder">
-					<Item Name="Function.ctl" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Modbus Data Unit/Function.ctl"/>
-					<Item Name="Modbus Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Modbus Data Unit/Modbus Data Unit.lvclass"/>
-				</Item>
-				<Item Name="Network Protocol" Type="Folder">
-					<Item Name="Network Master" Type="Folder">
-						<Item Name="Serial" Type="Folder">
-							<Item Name="Serial Master.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
-						</Item>
-						<Item Name="TCP" Type="Folder">
-							<Item Name="TCP Master.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
-						</Item>
-						<Item Name="Network Master.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Network Protocol/Network Master/Network Master.lvclass"/>
-					</Item>
-					<Item Name="Network Slave" Type="Folder">
-						<Item Name="Serial" Type="Folder">
-							<Item Name="Serial Slave.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
-						</Item>
-						<Item Name="TCP" Type="Folder">
-							<Item Name="TCP Slave.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
-						</Item>
-						<Item Name="Network Slave.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Network Protocol/Network Slave/Network Slave.lvclass"/>
-					</Item>
-					<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Network Protocol/Network Protocol.lvclass"/>
-					<Item Name="TCP_NODELAY.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Network Protocol/TCP_NODELAY.vi"/>
-				</Item>
-				<Item Name="Palette2" Type="Folder">
-					<Item Name="_functions_ni_lib_modbus_library_3.mnu" Type="Document" URL="../../../Includes/Modbus API.lvlibp/Palette2/_functions_ni_lib_modbus_library_3.mnu"/>
-				</Item>
-				<Item Name="Serial Shared Components" Type="Folder">
-					<Item Name="Serial Shared Components.lvlib" Type="Library" URL="../../../Includes/Modbus API.lvlibp/Serial Shared Components/Serial Shared Components.lvlib"/>
-				</Item>
-				<Item Name="Standard Data Model" Type="Folder">
-					<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Standard Data Model/Standard Data Model.lvclass"/>
-				</Item>
-				<Item Name="TCP Shared Components" Type="Folder">
-					<Item Name="TCP Shared Components.lvlib" Type="Library" URL="../../../Includes/Modbus API.lvlibp/TCP Shared Components/TCP Shared Components.lvlib"/>
-				</Item>
-				<Item Name="Transmission Data Unit" Type="Folder">
-					<Item Name="ASCII" Type="Folder">
-						<Item Name="ASCII Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Transmission Data Unit/ASCII/ASCII Data Unit.lvclass"/>
-					</Item>
-					<Item Name="IP" Type="Folder">
-						<Item Name="IP Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Transmission Data Unit/IP/IP Data Unit.lvclass"/>
-					</Item>
-					<Item Name="RTU" Type="Folder">
-						<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
-					</Item>
-					<Item Name="Serial Interface" Type="Folder">
-						<Item Name="Serial Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Transmission Data Unit/Serial Interface/Serial Data Unit.lvclass"/>
-					</Item>
-					<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus API.lvlibp/Transmission Data Unit/Transmission Data Unit.lvclass"/>
-				</Item>
-				<Item Name="Utility" Type="Folder">
-					<Item Name="Bits to Bytes.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Utility/Bits to Bytes.vi"/>
-					<Item Name="Bytes to Bits.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Utility/Bytes to Bits.vi"/>
-					<Item Name="Bytes to U16s.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Utility/Bytes to U16s.vi"/>
-					<Item Name="Generate UUID.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Utility/Generate UUID.vi"/>
-					<Item Name="U16s to Bytes.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/Utility/U16s to Bytes.vi"/>
-				</Item>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="../../../Includes/Modbus API.lvlibp/1abvi3w/vi.lib/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../../../Includes/Modbus API.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Data Access Engine.lvlib" Type="Library" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+				<Item Name="Modbus Async.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/Modbus Async.vi"/>
+				<Item Name="Modbus Library.lvlib" Type="Library" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Modbus Library.lvlib"/>
+				<Item Name="Modbus Master Shared.lvlib" Type="Library" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device/Shared/Modbus Master Shared.lvlib"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Engine/RT Driver VI.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
+				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Modbus Master.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/API/Master/Modbus Master.lvclass"/>
+			<Item Name="Modbus Slave.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/API/Slave/Modbus Slave.lvclass"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Network Master.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Master/Network Master.lvclass"/>
+			<Item Name="Network Protocol.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Protocol.lvclass"/>
+			<Item Name="Network Slave.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Slave/Network Slave.lvclass"/>
+			<Item Name="Process.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass/Process.ctl"/>
+			<Item Name="Process.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
+			<Item Name="RTU Data Unit.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Transmission Data Unit/RTU/RTU Data Unit.lvclass/RTU Data Unit.ctl"/>
+			<Item Name="RTU Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Transmission Data Unit/RTU/RTU Data Unit.lvclass"/>
+			<Item Name="Serial Master.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Master/Serial/Serial Master.lvclass/Serial Master.ctl"/>
+			<Item Name="Serial Master.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Master/Serial/Serial Master.lvclass"/>
+			<Item Name="Serial Slave.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Slave/Serial/Serial Slave.lvclass/Serial Slave.ctl"/>
+			<Item Name="Serial Slave.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Slave/Serial/Serial Slave.lvclass"/>
+			<Item Name="Standard Data Model.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Standard Data Model/Standard Data Model.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TCP Master.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Master/TCP/TCP Master.lvclass/TCP Master.ctl"/>
+			<Item Name="TCP Master.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Master/TCP/TCP Master.lvclass"/>
+			<Item Name="TCP Slave.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Slave/TCP/TCP Slave.lvclass/TCP Slave.ctl"/>
+			<Item Name="TCP Slave.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Slave/TCP/TCP Slave.lvclass"/>
+			<Item Name="Transmission Data Unit.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Transmission Data Unit/Transmission Data Unit.lvclass"/>
+			<Item Name="VS Inline Async API.ctl" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
+			<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
+			<Item Name="Write Flow Control.vi" Type="VI" URL="../../../Includes/Modbus Engine.lvlibp/Custom Device Support/Network Protocol/Network Master/Serial/Write Flow Control.vi"/>
+			<Item Name="Write.lvclass" Type="LVClass" URL="../../../Includes/Modbus Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
@@ -614,7 +601,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{45C3A44D-8009-481C-8901-1B675187B04B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{95A396BD-1C9D-4119-826F-88118BD1130D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Modbus Master Engine.lvlib/RT Driver VI.vi</Property>

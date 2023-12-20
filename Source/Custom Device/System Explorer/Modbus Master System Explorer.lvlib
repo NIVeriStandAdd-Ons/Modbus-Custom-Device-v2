@@ -184,7 +184,7 @@
 				<Item Name="To Engine Groups.vi" Type="VI" URL="../SubVIs/To Engine Groups.vi"/>
 				<Item Name="get first and last index.vi" Type="VI" URL="../SubVIs/get first and last index.vi"/>
 				<Item Name="group channels.vi" Type="VI" URL="../SubVIs/group channels.vi"/>
-				<Item Name="get last index.vi" Type="VI" URL="../../Engine/SubVIs/get last index.vi"/>
+				<Item Name="get last index.vi" Type="VI" URL="../SubVIs/get last index.vi"/>
 				<Item Name="get device interface info.vi" Type="VI" URL="../SubVIs/get device interface info.vi"/>
 				<Item Name="Make Group.vi" Type="VI" URL="../SubVIs/Make Group.vi"/>
 				<Item Name="Make Unsorted Group.vi" Type="VI" URL="../SubVIs/Make Unsorted Group.vi"/>

@@ -5,5 +5,4 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="TestMBcode.vi" Type="VI" URL="../TestMBcode.vi"/>
-	<Item Name="Tests.vi" Type="VI" URL="../Tests.vi"/>
 </Library>
