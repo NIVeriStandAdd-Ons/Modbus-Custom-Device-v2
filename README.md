@@ -3,11 +3,9 @@
 The **Modbus Master Custom Device** was designed with the intent to give Veristand the ability to act as a Modbus Master.
 
 The custom device supports the following functionality:
-- Import configuration files via scripting and System Explorer
-- LabVIEW scripting of the custom device configuration
-- Viewing read-only configuration in System Explorer
-- Transmit and Receive configured frames
-- Log all configured channels and frames
+- Configure Serial or TCP Master device
+- Read / Write coils, discrete registers, input registers and holding registers
+- Import and export register configurations
 
 ## Build from Source Code
 
@@ -21,7 +19,7 @@ The custom device supports the following functionality:
 - Move to *Source/Custom Device/Modbus Master Custom Device.lvproj* and build the **Engine Release** under the RT target that you want to use (e.g. `LinuxRT x64`)
   - Rebuild **Engine Release** build specification only if you rename the llb. Otherwise, no rebuild are necessary upon changes to LabVIEW Code  
 
-![Build process](Docs/Images/ModbusCD_buildProcess.png)
+![Build process](docs/images/ModbusCD_buildProcess.png)
 
 ## Configuring a TCP Master
 
@@ -37,7 +35,7 @@ To configure a TCP Master:
 3.	Enter the VISA Resource Name for the communications port that your Modbus connection will use. 
 **NOTE**: The dropdown only selects a valid port if your system will be deployed locally. For remote targets, you can find the correct VISA resource name under the name property. In the example below, you would use *COM1* with no quotations.
 
-![Serial Config](Docs/Images/SerialPortConfig.png)
+![Serial Config](docs/images/SerialPortConfig.png)
 
 ## Shared Settings
 
