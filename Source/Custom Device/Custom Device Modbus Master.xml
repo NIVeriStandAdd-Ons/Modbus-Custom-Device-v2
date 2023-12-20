@@ -57,33 +57,33 @@
 			<SupportedTarget>Windows</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Modbus Master\Windows\Modbus API.lvlibp</Path>
+				<Path>Custom Devices\Modbus Master\Windows\Modbus Engine.lvlibp</Path>
 			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus API.lvlibp</RealTimeSystemDestination>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus Engine.lvlibp</RealTimeSystemDestination>
 		</Dependency>
 		<Dependency>
 			<SupportedTarget>Pharlap</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Modbus Master\Pharlap\Modbus API.lvlibp</Path>
+				<Path>Custom Devices\Modbus Master\Pharlap\Modbus Engine.lvlibp</Path>
 			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus API.lvlibp</RealTimeSystemDestination>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus Engine.lvlibp</RealTimeSystemDestination>
 		</Dependency>
 		<Dependency>
 			<SupportedTarget>Linux_x64</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Modbus Master\Linux_x64\Modbus API.lvlibp</Path>
+				<Path>Custom Devices\Modbus Master\Linux_x64\Modbus Engine.lvlibp</Path>
 			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus API.lvlibp</RealTimeSystemDestination>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus Engine.lvlibp</RealTimeSystemDestination>
 		</Dependency>
 		<Dependency>
 			<SupportedTarget>Linux_32_ARM</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Modbus Master\Linux_32_ARM\Modbus API.lvlibp</Path>
+				<Path>Custom Devices\Modbus Master\Linux_32_ARM\Modbus Engine.lvlibp</Path>
 			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus API.lvlibp</RealTimeSystemDestination>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus Engine.lvlibp</RealTimeSystemDestination>
 		</Dependency>
 	</Dependencies>
 	<Pages>

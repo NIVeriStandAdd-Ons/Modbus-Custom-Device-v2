@@ -7,11 +7,11 @@
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="DataType to Register Size.vi" Type="VI" URL="../../System Explorer/SubVIs/DataType to Register Size.vi"/>
-			<Item Name="modbus type array.vi" Type="VI" URL="../../Engine/SubVIs/modbus type array.vi"/>
+			<Item Name="modbus type array.vi" Type="VI" URL="../../../Custom Device Support/Engine/SubVIs/modbus type array.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Data Model" Type="Folder">
-				<Item Name="Bulk Data Access.ctl" Type="VI" URL="../../Engine/SubVIs/Bulk Data Access.ctl"/>
+				<Item Name="Bulk Data Access.ctl" Type="VI" URL="../Bulk Data Access.ctl"/>
 				<Item Name="Channel Data.ctl" Type="VI" URL="../Controls/Data Model/Channel Data.ctl"/>
 				<Item Name="Channel.ctl" Type="VI" URL="../Controls/Data Model/Channel.ctl"/>
 				<Item Name="DataType.ctl" Type="VI" URL="../Controls/Data Model/DataType.ctl"/>
