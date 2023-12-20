@@ -1,4 +1,4 @@
-# AIM ARINC 664 Custom Device
+# Modbus Master Custom Device 
 
 The **Modbus Master Custom Device** was designed with the intent to give Veristand the ability to act as a Modbus Master.
 
@@ -21,21 +21,23 @@ The custom device supports the following functionality:
 - Move to *Source/Custom Device/Modbus Master Custom Device.lvproj* and build the **Engine Release** under the RT target that you want to use (e.g. `LinuxRT x64`)
   - Rebuild **Engine Release** build specification only if you rename the llb. Otherwise, no rebuild are necessary upon changes to LabVIEW Code  
 
-![Build process](docs/images/ModbusCD_buildProcess.jpg)
+![Build process](Docs/Images/ModbusCD_buildProcess.png)
 
 ## Configuring a TCP Master
 
 To configure a TCP Master:
-1.	In the System Explorer, right-click on the “Custom Devices“ group in VeriStand and select National Instruments >> Modbus Master to Slave. This will add an instance of the Custom Device to your project.
-2.	Select your new Custom Device instance, and verify that “Interface Type“ is set to “TCP Master“.
+1.	In the System Explorer, right-click on the *Custom Devices* group in VeriStand and select National Instruments >> Modbus Master to Slave. This will add an instance of the Custom Device to your project.
+2.	Select your new Custom Device instance, and verify that *Interface Type* is set to *TCP Master*.
 3.	Type the IP Address of your slave device, the communication port that your device communicates over, and the network timeout.
 
 ## Configuring a Serial Master
 
-1.	In the System Explorer, right-click on the “Custom Devices“ group in VeriStand and select National Instruments >> Modbus Master to Slave. This will add an instance of the Custom Device to your project.
-2.	Select your new Custom Device instance, and verify that “Interface Type“ is set to “Serial Master“.
+1.	In the System Explorer, right-click on the *Custom Devices* group in VeriStand and select National Instruments >> Modbus Master to Slave. This will add an instance of the Custom Device to your project.
+2.	Select your new Custom Device instance, and verify that *Interface Type* is set to *Serial Master*.
 3.	Enter the VISA Resource Name for the communications port that your Modbus connection will use. 
-NOTE: The dropdown only selects a valid port if your system will be deployed locally. For remote targets, you can find the correct VISA resource name under the name property. In the example below, you would use “COM1“ with no quotations.
+**NOTE**: The dropdown only selects a valid port if your system will be deployed locally. For remote targets, you can find the correct VISA resource name under the name property. In the example below, you would use *COM1* with no quotations.
+
+![Serial Config](Docs/Images/SerialPortConfig.png)
 
 ## Shared Settings
 
